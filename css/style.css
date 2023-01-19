@@ -1,0 +1,77 @@
+
+.container {
+  position:fixed;
+  margin-left: 0px;
+  width:99%;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#e5dac7;
+  border-radius: 5px;
+}
+.navbar a{
+  float:left;
+    color: #5f0ca5;
+    padding:5px;
+    text-decoration: none;
+    font-size: 30px;
+    display: 100%;
+}
+.navbar a:hover{
+  background-color:white;
+  color:gold;
+}
+
+td a{
+  text-decoration: inherit;
+}
+span{
+float:right;
+margin-right: 10px;
+margin-top: 3px;
+font-weight:bold;
+font-size: 20px;
+color:blue;
+animation: ani 1s infinite;
+}
+@keyframes ani{
+  from{color:blue;}
+  to{color:red; text-shadow: 2px 1px #ff0000; font-size: 25px;}
+}
+
+table{
+  width:900px;
+  height:800px;
+  float:right;
+  margin-top: 20px;
+}
+
+img{
+  width:250px;
+  height:200px;
+  display: 100%;
+}
+
+figcaption{
+  background-color: purple;
+  color: gold;
+  text-align: center;
+  text-decoration: inherit;
+}
+
+iframe{
+  position: fixed;
+  top: 80px;
+  left:auto;
+  width:482px;
+  height:650px;
+  color: yellow;
+  visibility: visible;
+}
+
+ifra img{
+  width: 100px;
+  height: 100px;
+}
